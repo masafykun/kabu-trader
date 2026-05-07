@@ -1,0 +1,18 @@
+# 環境変数
+.env
+
+# データベース・実行時データ
+data/kabu_trader.db
+data/last_scheduler_run.json
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# misc
+.DS_Store
