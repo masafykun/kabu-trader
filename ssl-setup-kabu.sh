@@ -2,7 +2,7 @@
 set -e
 
 DOMAIN="kabu.1qaz.jp"
-EMAIL="REDACTED-EMAIL"
+EMAIL="${LETSENCRYPT_EMAIL:?set LETSENCRYPT_EMAIL env var}"
 
 echo "=== SSL証明書取得: $DOMAIN ==="
 
